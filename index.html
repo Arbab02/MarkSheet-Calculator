@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Marksheet Calculator</title>
+</head>
+<body>
+
+    <h1 id="alert">Marksheet  Calculator</h1>
+
+
+     <!-- Container Starting -->
+<div class="container">
+
+  
+                <!-- Info Starting -->
+  <div class="info">
+    <img src="school.png">
+    <h1 class="sub-h1">Your Personal Info</h1>
+    <div>
+      <label for="first-n">First Name</label>
+        <input type="text" name="" id="first-n" placeholder="Arbab">
+       </div>
+
+    <div>
+        <label for="last-n">Last Name</label>
+          <input type="text" name="" id="last-n" placeholder="Raheem">
+         </div>
+
+         <div>
+            <label for="class">Class</label>
+              <input type="text" name="" id="class" placeholder="10">
+             </div>
+
+             <div>
+                <label for="section">Section</label>
+                  <input type="text" name="" id="section" placeholder="A">
+                 </div>
+
+             <div>
+                <label for="roll">Roll no:</label>
+                  <input type="text" name="" id="roll" placeholder="04">
+                 </div>
+
+                </div>
+                <!-- Info Ending -->
+
+                  <!-- Subjects Starting -->
+<div class="sub">
+  <img src="school.png">
+  <h1 class="sub-h1">Your Obtained Marks</h1>
+    <div>
+    <label for="eng">English</label>
+    <input type="text" name="" id="eng" placeholder="100" class="subject">
+    </div>
+
+    <div>
+    <label for="isl">Islamiat</label>
+      <input type="text" name="" id="isl" placeholder="100" class="subject">
+     </div>
+
+     <div>
+    <label for="comp">Computer</label>
+      <input type="text" name="" id="comp" placeholder="100" class="subject">
+    </div>
+
+      <div>
+    <label for="phy">Physics</label>
+     <input type="text" name="" id="phy" placeholder="100" class="subject">
+     </div>   
+
+     <div>
+    <label for="chem">Chemistry</label>
+      <input type="text" name="" id="chem" placeholder="100" class="subject">
+    </div>
+
+  </div>
+   <!-- Subjects Ending -->
+
+   <button  onclick="showResult()" id="submit">Submit</button>
+   <button  onclick="clear()" id="clear">Clear All</button>
+  </div>
+  <!-- Container Ending -->
+
+    
+    <!-- Result  Starting -->
+    <div class="result" id="result">
+      <h1 class="result-h1">Your Record:</h1>
+      <p id="fullName">Arbab</p>
+      <p id="cls">Arbab</p>
+      <p id="sec">Arbab</p>
+      <p id="rollNo">Arbab</p>
+      <p id="obt">Arbab</p>
+      <p id="perc">Arbab</p>
+      <p id="grade">Arbab</p>
+      <p id="remarks">Arbab</p>
+      <button id="goBack" onclick="goBack()">Go back</button>
+    </div>
+<!-- Result Ending -->
+    <script src="script.js"></script>
+</body>
+</html>
