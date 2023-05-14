@@ -82,7 +82,7 @@ h1{
     box-shadow: 2px 5px 30px 2px black;
     background-color: rgb(18, 4, 37);
      color: white;
-    margin: 3px 0px 0px 8.2rem;
+    margin: 1x 0px 0px 8.2rem;
     height: 29rem;
     width: 33rem;
     border-radius: 20px;
@@ -108,7 +108,7 @@ input:hover{
 
 
 .sub{
-    margin: 3px 0px 0px 3rem;
+    margin: 1x 0px 0px 3rem;
     display: inline-block;
     box-shadow: 2px 5px 30px 2px black;
     background-color: rgb(18, 4, 37);
@@ -138,7 +138,7 @@ label{
 }
 
 #submit{
-    margin: 31rem 0px 0px 32.9rem;
+    margin: 29.5px 0px 32.9rem;
     border: none;
     border-radius: 5px;
     font-size: 1.6rem;
@@ -162,7 +162,7 @@ label{
 
 
 #clear{
-    margin: 31rem 0px 0px 43rem;
+    margin: 29.5px 0px 43rem;
     border: none;
     border-radius: 5px;
     font-size: 1.6rem;
